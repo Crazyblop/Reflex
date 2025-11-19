@@ -66,20 +66,24 @@ body {
     left: 0;
     width: 100%;
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.3s ease;
     background-color: #202020;
     color: white;
 }
 
 #home-section {
-    z-index: 30;
+    z-index: 40;
 }
 
 #news-section {
-    z-index: 20;
+    z-index: 30;
 }
 
 #about-section {
+    z-index: 20;
+}
+
+#donate-section {
     z-index: 10;
 }
 
@@ -209,6 +213,16 @@ body {
 }
 
 .about {
+    font-size: 1.125rem;
+    font-weight: bold;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.donate {
     font-size: 1.125rem;
     font-weight: bold;
     display: grid;

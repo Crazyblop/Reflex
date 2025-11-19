@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const order = ['home-section', 'news-section', 'about-section'];
+    const order = ['home-section', 'news-section', 'about-section', 'donate-section'];
     const buttons = {
         hometb: 'home-section',
         newstb: 'news-section',
-        abouttb: 'about-section'
+        abouttb: 'about-section',
+        donatetb: 'donate-section'
     };
     let currentId = 'home-section';
 
